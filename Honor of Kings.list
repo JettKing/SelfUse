@@ -1,20 +1,16 @@
-# Honor of Kings 分流规则（2023 年 10 月）
-# 游戏服务器
-DOMAIN-SUFFIX,qq.com,游戏节点
-DOMAIN-SUFFIX,weiyun.com,游戏节点
-DOMAIN-SUFFIX,tencent.com,游戏节点
-DOMAIN-SUFFIX,tencent-cloud.net,游戏节点
-DOMAIN-SUFFIX,tencent-cloud.com,游戏节点
-DOMAIN-SUFFIX,tencentmusic.com,游戏节点
-DOMAIN-SUFFIX,tencentcs.com,游戏节点
-DOMAIN-SUFFIX,tencentdev.com,游戏节点
-DOMAIN-SUFFIX,tencent-cloud.org,游戏节点
-DOMAIN-SUFFIX,igamecj.com,游戏节点
-DOMAIN-SUFFIX,cloud.tencent.com,游戏节点
+# Honor of Kings 国际服分流规则
+# 国际服域名
+DOMAIN-SUFFIX,aov.com,国际服节点
+DOMAIN-SUFFIX,garena.com,国际服节点
+DOMAIN-SUFFIX,proximabeta.com,国际服节点
+DOMAIN-SUFFIX,tencentgames.com,国际服节点
+DOMAIN-SUFFIX,levelinfinite.com,国际服节点
 
-# 直连规则
+# 直连规则（国内流量）
 DOMAIN-SUFFIX,cn,DIRECT
-DOMAIN-SUFFIX,local,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,weiyun.com,DIRECT
+DOMAIN-SUFFIX,tencent.com,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
