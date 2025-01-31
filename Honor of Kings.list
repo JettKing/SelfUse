@@ -1,0 +1,24 @@
+# Honor of Kings 分流规则
+
+# 游戏服务器
+
+DOMAIN-SUFFIX,qq.com,游戏节点
+DOMAIN-SUFFIX,weiyun.com,游戏节点
+DOMAIN-SUFFIX,tencent.com,游戏节点
+DOMAIN-SUFFIX,tencent-cloud.net,游戏节点
+DOMAIN-SUFFIX,tencent-cloud.com,游戏节点
+DOMAIN-SUFFIX,tencentmusic.com,游戏节点
+DOMAIN-SUFFIX,tencentcs.com,游戏节点
+DOMAIN-SUFFIX,tencentdev.com,游戏节点
+DOMAIN-SUFFIX,tencent-cloud.org,游戏节点
+
+# 直连规则
+
+DOMAIN-SUFFIX,cn,DIRECT
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
+IP-CIDR,224.0.0.0/4,DIRECT
