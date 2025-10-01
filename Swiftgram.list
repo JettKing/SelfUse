@@ -1,0 +1,8 @@
+# Swiftgram Quantumult X 规则示例
+DOMAIN-SUFFIX,telegram.org,Swiftgram
+DOMAIN-SUFFIX,t.me,Swiftgram
+DOMAIN-SUFFIX,telegram.me,Swiftgram
+DOMAIN-SUFFIX,tlgrm.eu,Swiftgram
+IP-CIDR,149.154.160.0/20,Swiftgram
+IP-CIDR,91.108.4.0/22,Swiftgram
+IP-CIDR,149.154.164.0/22,Swiftgram

@@ -1,0 +1,8 @@
+# Nicegram Quantumult X 规则示例
+DOMAIN-SUFFIX,telegram.org,Nicegram
+DOMAIN-SUFFIX,t.me,Nicegram
+DOMAIN-SUFFIX,telegram.me,Nicegram
+DOMAIN-SUFFIX,tlgrm.eu,Nicegram
+IP-CIDR,149.154.160.0/20,Nicegram
+IP-CIDR,91.108.4.0/22,Nicegram
+IP-CIDR,149.154.164.0/22,Nicegram
